@@ -1,0 +1,147 @@
+* {
+	font-family: 'Inter', sans-serif;
+}
+
+body {
+	height: 100%;
+	background-color: rgb(34, 30, 58);
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.button {
+	padding: 10px 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon-sm {
+	width: 16px;
+}
+
+.button:hover {
+	opacity: 0.9;
+}
+
+.button-danger {
+	background-color: rgb(222, 66, 66);
+}
+
+.button-access {
+	background-color: rgb(116, 196, 116);
+}
+
+.button-disabled {
+	background-color: rgba(61, 61, 147, 0.364);
+}
+
+.button-primary {
+	background-color: rgb(63, 63, 196);
+}
+
+.header {
+	border-bottom: 1px solid #574da13c;
+	padding: 0 20px;
+	color: white;
+	margin-bottom: 25px;
+	height: 65px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.send-wrapper {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.input {
+	border: 1px solid rgb(69, 49, 168);
+	padding: 10px 10px;
+	border-radius: 5px;
+	color: white;
+	outline: none;
+	background-color: #574da13c;
+}
+
+.timer {
+	color: white;
+	font-size: 18px;
+	user-select: none;
+}
+
+.pause {
+	color: rgb(250, 77, 77);
+}
+
+.active {
+	color: rgb(93, 210, 93);
+}
+
+.schedule-card {
+	background-color: #574da13c;
+	padding: 0 20px;
+	border-radius: 10px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+}
+
+.schedule-card-header {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #7669dc3c;
+}
+
+.schedule-card-header > .date {
+	font-size: 12px;
+	background-color: #3a3b88;
+	padding: 5px 15px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+
+.schedule-card-header > .title {
+	font-size: 12px;
+	width: 350px;
+}
+
+.schedule-card-body {
+	display: flex;
+	font-size: 12px;
+	flex-direction: column;
+	gap: 5px;
+	padding: 10px 0 20px 0;
+}
+.schedule-card-body > hr {
+	border: 0;
+	border-bottom: 1px solid #7669dc3c;
+}
+
+.schedule-list {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
